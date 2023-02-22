@@ -1,0 +1,90 @@
+.mesuse-lists {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.messages-list {
+    width: 600px;
+    height: 400px;
+    border: 1px solid grey;
+    overflow-y: scroll;
+    border-radius: 10px;
+    margin-right: 30px;
+    background-color: #ced4e4;
+}
+
+.users-list {
+    width: 120px;
+    height: 400px;
+    border: 1px solid grey;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: #ced4e4;
+}
+
+.controls {
+    display: none;
+}
+
+.new-message {
+    width: 595px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    resize: none;
+    background-color: #ced4e4;
+}
+
+.button {
+    width: 120px;
+    height: 56px;
+    border-radius: 10px;
+    background: #414af4;
+    color: white;
+    font-size: xx-large;
+    font-family: "Microsoft PhagsPa", serif, bold;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.message-item {
+    margin-bottom: 20px;
+}
+
+.message-header {
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.datetime {
+    color: grey;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+.user-item {
+    display: -webkit-box;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.uid {
+    color: grey;
+    margin-right: 5px;
+}
+
+.uname {
+    font-weight: bold;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+.body {
+    background: linear-gradient(217deg, rgba(0, 119, 255, 0.2), rgba(255, 0, 0, 0) 70.71%);
+}
