@@ -1,22 +1,22 @@
-<h1 align="center">Групповой чат</h1>
+<h1 align="center">Group chat</h1>
 
 ----
 ## Stack
 Java, Spring Boot, Maven, JDBC, Hibernate, SQL.
 ____
-## Краткое описание
-Функциональность данного Spring Boot приложение содержит:
-<li>осуществление регистрации/входа;</li>
-<li>просмотр сообщений;</li>
-<li>создание и отправка сообщений.</li>
+## Sort description
+Functionality of this Spring Boot app includes:
+<li>registration/authentication;</li>
+<li>messages listing;</li>
+<li>messages creation and sending.</li>
 
 ____
-# Интерфейс
-## Форма входа/регистрации
+# UI
+## Login/registration form
 <p align="center">
 <img src="imagesForReadme/1.png"></p>
 
-## Общий вид
+## Overall look
 <p align="center">
 <img src="imagesForReadme/2.png"></p>
 <p align="center">
@@ -40,8 +40,8 @@ ___
 
 [\
 &emsp;{\
-&emsp;&emsp;'text': "Привет",\
-&emsp;&emsp;'username': "Кирилл",\
+&emsp;&emsp;'text': "Hello",\
+&emsp;&emsp;'username': "Kirill",\
 &emsp;&emsp;'datetime': "2023-02-22 13:13:11"\
 &emsp;},\
 &emsp;...\
@@ -73,17 +73,17 @@ ___
 [\
 &emsp;{\
 &emsp;&emsp;'id': "4",\
-&emsp;&emsp;'name': "Кирилл",\
+&emsp;&emsp;'name': "Kirill",\
 &emsp;},\
 &emsp;...\
 ]
 </details>
 
 ___
-## Как запустить
-Для работы приложения необходимо:
-<li>установить MySQL (8.0);</li>
-<li>настроить соединение с базой данных по конфигурации - application.yaml.</li>
+## Hiw to build
+You would need:
+<li>installed MySQL (8.0);</li>
+<li>establised DB connention, config file - application.yaml.</li>
 
 ```
 server:
