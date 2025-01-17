@@ -19,8 +19,6 @@ ____
 ## Overall look
 <p align="center">
 <img src="imagesForReadme/2.png"></p>
-<p align="center">
-<img src="imagesForReadme/3.png"></p>
 
 ___
 ## API
